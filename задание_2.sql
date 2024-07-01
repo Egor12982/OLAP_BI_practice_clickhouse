@@ -1,0 +1,3 @@
+CREATE USER test_admin IDENTIFIED WITH sha256_password BY 'admin123';
+
+GRANT CURRENT GRANTS ON *.* TO test_admin WITH GRANT OPTION;
